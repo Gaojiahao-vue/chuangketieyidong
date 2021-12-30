@@ -1,0 +1,92 @@
+
+$colors:rgb(38, 116, 233);
+
+.Headernav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    .isshow{
+      width: 100%;
+       display: flex;
+       height: 58px;
+       align-items: center;
+    //    justify-content: space-between;
+       background-color: $colors;
+       padding: 0 15px;
+       box-sizing: border-box;
+       
+       img{
+           width: 170px;
+           height: 48px;
+           margin-right: 45px;
+       }
+       
+         div{
+      &:nth-of-type(1){
+         color: white;
+         font-size: 25px;
+         margin-right: 20px;
+         
+       }
+
+       &:nth-of-type(2){
+           width: 100%;
+        button{
+           display: block;
+           width: 100%;
+           height: 30px;
+           background-color: white;
+           font-size: 13px;
+           color:$colors;
+           border-radius: 15px;
+           outline: none;
+           border: none;
+           &:hover{
+               background-color: gainsboro;
+           }
+       }
+        
+      }
+         }
+
+
+     
+    }
+
+    .input{
+        width:100%;
+        padding: 10px 0;
+             background-color: white;
+        border-bottom: 1px solid $colors;
+        .inputseach{
+            display: block;
+            width: 100%;
+            outline: none;
+            border: none;
+            text-decoration: none;
+        }
+        .input{
+             margin: auto;
+             box-sizing: border-box;
+             padding:0 20px;
+            width: 90%;
+            height: 34px;
+            background-color: rgb(241, 236, 236);
+            border: none;
+            outline: none;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+        span{
+           display: block;
+           color:rgba(119, 116, 116, 0.726);
+           line-height: 34px;
+        }
+
+
+        }
+    }
+    
+
+}

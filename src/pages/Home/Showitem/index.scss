@@ -1,0 +1,56 @@
+.Showitem{
+    padding: 0 12px;
+    padding-bottom: 10px;
+    .Showitem_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h3{
+        font-size: 16px;
+        padding: 30px 0 20px;
+    }
+
+    ul{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+            cursor: pointer;
+            width: 110px;
+            height: 195px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+           
+            img{
+                width: 110px;
+                display: block;
+            }
+        }
+    }
+  
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        margin:30px 0 ;
+          button{
+        display: block;
+        cursor: pointer;
+        line-height: 40px;
+        text-align: center;
+        width: 160px;
+        background-color: gainsboro;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        font-size: 20px;
+        &:hover{
+            color: white;
+            background-color: rgb(10, 182, 182);
+        }
+       
+    }
+    }
+  
+}

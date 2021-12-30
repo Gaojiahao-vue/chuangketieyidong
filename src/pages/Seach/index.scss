@@ -1,0 +1,37 @@
+.Seach{
+    width: 100%;
+
+    .antseach{
+        width: 90%;
+        margin: 20px auto;
+        
+        .adm-search-bar-input-box{
+            height: 35px;
+            border: none;
+            border-radius: 15px;
+        }
+        
+       
+
+    }
+
+    .adm-tag-round{
+        margin: 5px 10px;
+        padding: 5px 12px;
+        background-color: gainsboro;
+        border: none;
+        color: #333;
+    }
+
+    .hotseach{
+        h3{
+            padding: 10px 20px;
+        }
+    }
+
+    .history_seach{
+        h3{
+            padding: 10px 20px;
+        }
+    }
+}

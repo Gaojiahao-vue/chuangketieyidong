@@ -1,0 +1,36 @@
+.SceneDetails{
+     width: 100%;
+     h3{
+         font-size: 20px;
+         width: 100%;
+         text-align: center;
+     }
+     ul{
+         padding: 25px 16px;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         li{
+             img{
+                 display: block;
+                 width: 108px;
+                 margin-top: 20px;
+             }
+         }
+     }
+     .bottomload{
+        //  width: 100%;
+         width: 100px;
+         margin: auto;
+         padding: 10px 20px;
+         border-radius: 10px;
+         font-size: 15px;
+         color: gray;
+         text-align: center;
+         display: block;
+         outline: none;
+         border: none;
+         margin-bottom: 50px;
+
+     }
+}
